@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F4EDE1;
+    color: #3B3B3B;
+    text-align: center;
+}
+
+h1 {
+    color: #A26769;
+}
+
+#map {
+    width: 80%;
+    height: 600px;
+    margin: 20px auto;
+    border: 2px solid #D4A373;
+    border-radius: 10px;
+}
+
+#info-panel {
+    background: #FAF3DD;
+    padding: 20px;
+    width: 80%;
+    margin: 20px auto;
+    border: 2px solid #D4A373;
+    border-radius: 10px;
+}
+
+#elephant {
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+#image-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+#image-gallery img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+    border: 2px solid #A26769;
+}
