@@ -26,6 +26,3 @@ locations.forEach(location => {
         });
     });
 });
-
-
-//images\nyc\NYC1.jpg
